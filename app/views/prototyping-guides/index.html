@@ -1,0 +1,60 @@
+{% set PROTOTYPEURL = "prototyping-guides" %}
+{% extends 'layout.html' %}
+
+
+{% block pageTitle %}
+  Digital Transformation of Screening
+{% endblock %}
+
+{% block beforeContent %}
+{% endblock %}
+
+{% block outerContent %}
+{% endblock %}
+
+<!-- For adding page content -->
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+
+      <h1>
+        Prototyping guides
+      </h1>
+
+      <h2>Setting up a repository</h2>
+
+      <ul class="panel-link">
+        <li class="panel-link__item">
+          <a class="panel-link__link" href="/{{ PROTOTYPEURL }}/setting-up-repo">
+            <h2 class="panel-link__heading nhsuk-heading-s">Setting up a new repo with the NHS prototype kit code</h2>
+            <p class="panel-link__content">How to set up a new repo using the prototype kit repository</p>
+          </a>
+        </li>
+        </ul>
+
+      <h2>Getting the kit and running it</h2>
+
+      <ul class="panel-link">
+
+        <li class="panel-link__item">
+          <a class="panel-link__link" href="/{{ PROTOTYPEURL }}/getting-prototype-kit">
+            <h2 class="panel-link__heading nhsuk-heading-s">Getting the strategic screening prototype kit</h2>
+            <p class="panel-link__content">How to get the strategic screening prototype kit on your machine</p>
+          </a>
+        </li>
+
+        <li class="panel-link__item">
+          <a class="panel-link__link" href="/{{ PROTOTYPEURL }}/running-prototype">
+            <h2 class="panel-link__heading nhsuk-heading-s">How to run your prototype locally</h2>
+            <p class="panel-link__content">How to use the terminal to get your prototype running locally</p>
+          </a>
+        </li>
+
+        </ul>
+
+
+      <!-- End of content -->
+
+    </div>
+  </div>
+{% endblock %}

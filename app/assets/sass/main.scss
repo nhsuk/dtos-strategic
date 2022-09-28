@@ -12,3 +12,47 @@
 ///////////////////////////////////////////
 // Add your custom CSS/Sass styles below...
 ///////////////////////////////////////////
+
+
+// BS SELECT PROTOTYPE CSS TEST ONLY //
+
+
+// General //
+.bss-h1 {
+    color: #005eb8;
+    margin-bottom: 0;
+}
+
+.bss-main {
+    width: 80rem;
+}
+
+// header //
+
+.bss-page-header {
+    padding: 1.5rem;
+    padding-bottom: 0;
+}
+.bss-header-mini-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bss-header-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.bss-header-nav {
+    background-color: #d8dde0; 
+}
+
+.bss-nav-links {
+    padding: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+// body //
